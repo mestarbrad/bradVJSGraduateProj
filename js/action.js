@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
   loginInfoObj = JSON.parse(lsMemberInfoArr);
   setLoginInfo();
 
+  console.log(loginInfoObj);
+
   // 로그인
   const formLogin = this.getElementById("form-login");
   formLogin.addEventListener("submit", onLoginFormSubmit);
@@ -24,5 +26,5 @@ document.addEventListener("DOMContentLoaded", function() {
   btnLogout.addEventListener("click", onLogout);
 
   // ToDo 리스트 호출
-  
+
 });
