@@ -1,0 +1,96 @@
+.container {
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container * {
+  margin: 10px;
+  text-align: center;
+}
+
+.wrap-form {
+  min-width: 40%;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.wrap-form div {
+  width: 90%;
+}
+
+.clock-wrap {
+  padding: 10px 0;
+  font-size: 17pt;
+  font-weight: bold;
+  color:rgb(139, 62, 241);
+}
+
+.weather-wrap {
+  padding: 10px 0;
+  border-top: 1px dotted gray;
+}
+
+  .weather-wrap > h2 > .today-weather {
+    color:slateblue;
+  }
+
+.login-wrap {
+  padding: 10px 0;
+  border-top: 1px dotted gray;
+}
+
+  .login-wrap > .login-title {
+    font: 1.7em 'PretendardBold';
+  }
+
+  .login-wrap > .login-form input {
+    width:30%;
+    height:30px;
+    background-color: #fff;
+    border: 1px solid black;
+    font: 1.2em 'PretendardBold';
+  }
+
+  button {
+    /* margin: 5px;
+    padding: 6px 18px;   */
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .btn-login {
+    width:10%;
+    height:9%;
+    background-color: #1310e2;
+  }
+
+  .btn-logout {
+    width:100%;
+    height:9%;
+    background-color: #f43535;
+  }
+
+.todolist-wrap {
+  padding: 10px 0;
+  border-top: 1px dotted gray;
+}
+
+#form-todolist input {
+  width: 70%;
+  height:30px;
+  background-color: #fff;
+  border: 1px solid black;
+  font: 1.2em 'PretendardBold';
+}
+
+.btn-todo {
+  width:7%;
+  height:7%;
+  background-color: #1310e2;
+}

@@ -17,6 +17,17 @@
 		url('../font/Pretendard-ExtraBold.woff') format('woff');
 }
 
+/*confing*/
+:root {
+	--main-color: #5768F6; /*blue*/
+	--sub-color-1: linear-gradient(90deg, #5768F6 0%, #579FFB 100%); /*gradient*/
+	--sub-color-2: #F9F9F9; /*grey*/
+	--sub-color-3: #FFFFFF; /*white*/
+	--sub-color-4: #0DC9B9; /*light-blue*/
+	--font-color: #404040;
+	--border-color: #323233;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -57,7 +68,7 @@ ol, ul, dl, li {
 }
 
 form {
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	width: 100%;
 	height: 100%;
@@ -71,19 +82,23 @@ button, button:focus, input, input:focus {
 	box-shadow: none;
 }
 
-input[type="text"], input[type="password"], input[type="date"] {
+/* input[type="text"], input[type="password"], input[type="date"] {
 	box-sizing: border-box;
 	float: left;
 	padding: 0 10px;
 	outline: none;
 	border: 1px solid var(--border-color);
-	border-radius: 10px;
+	border-radius: 5px;
 	background: #FFF;
-	font: 1rem 'Pretendard';
+	font: 1.5rem 'Pretendard';
 	color: var(--font-color);
 }
 	input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus {
-		border-radius: 10px;
+		border-radius: 5px;
 		border: 1px solid var(--main-color);
 		transition: all 0.5s linear;
-	}
+	} */
+
+.hidden {
+	display: none;
+}

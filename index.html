@@ -7,14 +7,50 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/common.js"></script>
+    <script src="js/weather_apikey.js"></script>
     <script src="js/action.js"></script>
     <script src="js/bgimg.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
     <script src="js/login.js"></script>
     <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
   </head>
   <body>
-    <div id="div-test">Hello!</div>
+    <div class="container">
+      <div class="wrap-form">
+        <div class="clock-wrap"></div>
+        <div class="weather-wrap">
+          <h1>현재 날씨는</h1>
+          <h2>
+            <span class="today-weather"></span>
+          </h2>
+        </div>
+        <div class="login-wrap">
+          <div class="login-form">
+            <form id="form-login">
+              <input type="text" id="login-id" placeholder="아이디를 입력해 주세요" required autofocus />
+			        <input type="password" id="login-pw" placeholder="비밀번호를 입력해 주세요" required />
+              <button class="btn-login" tabindex="3">로그인</button>
+            </form>
+          </div>
+          <div class="login-title hidden">
+            <span class="login-info"></span>
+            <span class="logout"><button class="btn-logout">로그아웃</button></span>
+          </div>
+        </div>
+        <div class="todolist-wrap hidden">
+          <div class="todo-title"></div>
+          <div class="todo-form">
+            <form id="form-todolist">
+              <input type="text" id="input-todo" placeholder="할일을 입력해주세요." />
+              <button class="btn-todo">저장</button>
+            </form>
+          </div>
+          <div class="todo-list"></div>          
+        </div>
+      </div>
+    </div>
   </body>
 </html>
