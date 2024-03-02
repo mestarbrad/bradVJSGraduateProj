@@ -38,8 +38,8 @@ html, body {
 	font: 14px 'Pretendard';
 	color: var(--font-color);
 	letter-spacing: -0.02rem;
-	overflow: hidden;
-	overflow-x: auto;
+	/* overflow: hidden;
+	overflow-x: auto; */
 }
 
 * {
@@ -61,18 +61,17 @@ a, a:focus, img{
 }
 
 ol, ul, dl, li {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-form {
-	/* float: left; */
+/* form {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
-}
+} */
 
 button, button:focus, input, input:focus {
 	margin: 0;

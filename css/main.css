@@ -1,6 +1,6 @@
 .container {
   width:100%;
-  height:100vh;
+  /* height:100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,13 +66,13 @@
 
   .btn-login {
     width:10%;
-    height:9%;
+    height:40px;
     background-color: #1310e2;
   }
 
   .btn-logout {
     width:100%;
-    height:9%;
+    height:35px;
     background-color: #f43535;
   }
 
@@ -83,7 +83,7 @@
 
 #form-todolist input {
   width: 70%;
-  height:30px;
+  height:35px;
   background-color: #fff;
   border: 1px solid black;
   font: 1.2em 'PretendardBold';
@@ -91,6 +91,40 @@
 
 .btn-todo {
   width:7%;
-  height:7%;
+  height:35px;
   background-color: #1310e2;
+}
+
+.todos_wrap {
+  width:100%;
+  font: 1.5em 'PretendardBold';
+  text-align: left;
+}
+
+.todo-item {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  border-bottom: 1px solid #ddd;
+}
+
+  .todo-item > .todo {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    width: 80%;
+    text-align: left;
+  }
+
+.btn-delete {
+  opacity: 1;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  cursor: pointer;
+  color:black;
 }
