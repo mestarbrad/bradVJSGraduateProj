@@ -34,7 +34,7 @@ function onTodoFormSubmit(event) {
   const newTodo = inputTodo.value;
   inputTodo.value = "";
   const newTodoObj = {
-    id: "t"+Date.now(),
+    id: "t"+String(Date.now()),
     text: newTodo,
   };
   userTodoListObj.push(newTodoObj);
