@@ -5,6 +5,7 @@ let memberInfoObj = [];
 const LOGININFO_KEY = "logininfo";
 let loginInfoObj = [];
 const TODOLIST_KEY = "todolist";
+let userTodoListObj = [];
 
 const USER_ID = "u_id";
 const USER_LOGINID = "u_loginid";

@@ -26,5 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // ToDo 리스트 호출
   if(loginInfoObj !== null) {
     getTodoTitle();
+    getTodoList();
   }
 });

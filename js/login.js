@@ -77,16 +77,14 @@ function onLoginFormSubmit(event) {
   }
 
   setLoginInfo();
+
+  // TO DO 리스트 호출
+  getTodoTitle();
+  getTodoList();
 }
 
 function onLogout() {
   localStorage.removeItem(LOGININFO_KEY);
-  loginInfoObj = null;
-  const loginId = document.getElementById("login-id");
-  const loginPw = document.getElementById("login-pw");
-
-  loginId.value = "";
-  loginPw.value = "";
-
-  setLoginInfo();
+  
+  document.location.reload();
 }
