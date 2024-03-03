@@ -30,6 +30,8 @@ function addTodo(newTodo) {
 function onTodoFormSubmit(event) {
   event.preventDefault();
 
+  console.log("checked");
+
   const inputTodo = document.getElementById("input-todo");
   const newTodo = inputTodo.value;
   inputTodo.value = "";
